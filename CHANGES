@@ -3,8 +3,11 @@ Changelog for six
 
 This file lists the changes in each six version.
 
-Unreleased
-----------
+1.17.0
+------
+
+- Pull request #388: Remove `URLopener` and `FancyURLopener` classes from
+  `urllib.request` when running on Python 3.14 or greater.
 
 - Pull request #365, issue #283: `six.moves.UserDict` now points to
   `UserDict.IterableUserDict` instead of `UserDict.UserDict` on Python 2.
